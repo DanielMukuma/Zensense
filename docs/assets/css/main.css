@@ -3163,10 +3163,10 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlayy.jpg"), url("../../images/overlayy.jpg");
-		background-position: center,						center center;
-		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
+		background-image: url("../../images/overlayy.jpg"); /* Or whatever name you prefer */
+		background-size: cover; /* Ensures the image covers the entire banner area */
+		background-position: center center; /* Centers the image */
+		background-repeat: no-repeat; /* Prevents the image from tiling */
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
