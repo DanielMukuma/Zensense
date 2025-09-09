@@ -3163,7 +3163,7 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/splash.jpg"), url("../../images/banner.jpg");
+		background-image: url("images/splash.jpg"), url("../../images/overlayy.jpg");
 		background-position: center,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
